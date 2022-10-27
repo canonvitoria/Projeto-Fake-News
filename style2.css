@@ -1,0 +1,86 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #233c1ed0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+header > img {
+    display: block;
+    margin: auto;
+   border-radius: 2px 2px;
+}
+
+nav {
+    width: 1265px;
+    background-color: #A67E33;
+    border-radius: 5px 5px 5px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    margin: 40px;
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #6e5322;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+section {
+    background-color: white;
+    width: 900px;
+    height: 2000x;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px solid black;
+}
+
+section > h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #8C1F1F;
+    font-size: 35px;
+    text-align: left; 
+    margin: 15px;
+    padding-top: 10px;
+}
+
+section > div.intro {
+    font-size: 14px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+section > img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+    margin: auto;
+
+}
+
+section> div {
+    margin: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+section > div.info {
+    font-size: 13px;
+    color: #8C1F1F;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #233c1ed0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+header > img {
+    display: block;
+    margin: auto;
+   border-radius: 2px 2px;
+}
+
+nav {
+    width: 1265px;
+    background-color: #A67E33;
+    border-radius: 5px 5px 5px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    margin: 40px;
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #6e5322;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+section {
+    background-color: white;
+    width: 1000px;
+    height: 2000x;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px solid black;
+}
+
+h1 {
+    color: #233C1E;
+    padding: 20px;
+    text-align: center;
+    padding: 300px;
+} 
+
+img.perfil{
+    border-radius: 50%;
+    width: 200px;
+    position: absolute;
+    left: 60%;;
+    top: 60%;
+    transition: width 2s;
+}
+
+img.perfil:hover{
+    width: 300px;
+}
+
+
+div > img {
+   padding: 20px;
+}
+
+
+img.perfil2 {
+    width: 500px;
+    position: absolute;
+    right: 50%;
+    top: 80%;
+    transition: width 2s;
+}
+
+img.perfil2:hover {
+    width: 600px;
+}
